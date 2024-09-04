@@ -1,0 +1,143 @@
+*{
+    font-family: "Kanit", sans-serif;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logoutBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logoutBtn:hover{
+  background-color: rgb(216, 50, 50);
+  cursor: pointer;
+}
+#add-post-container{
+   
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.addPost-btn{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(28, 180, 28);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+.addPost-btn:hover{
+    background-color: rgb(19, 109, 19);
+    transition: 1s;
+    cursor: pointer;
+}
+#add-post-container article >h2{
+  color: rgb(69, 20, 114);
+}
+
+#newPost-text{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#newPost-image{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#post-container{
+    width: 90%;
+    background-color: rgb(235, 198, 204);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.post{
+    width: 60%;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.post-user-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-username{
+    margin: 0;
+}
+.posted-time{
+    color: rgb(151, 130, 130);
+    font-size: 12px;
+}
+.post-image{
+    display: flex;
+    justify-content: center;
+}
+.post-image img{
+    width: 50%;
+    border-radius: 8px;
+    margin: 15px;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.comment-user-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-text-container{
+    background-color: rgb(142, 196, 142);
+    padding: 10px;
+    border-radius: 8px;
+}
+.comment-text-container h4, p {
+    margin: 0 ;
+}
+.comment-text-container h4 {
+    margin-bottom: 5px;
+}
+.postComment-holder {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+.post-comment-input-field-holder{
+    width: 60%;
+}
+.postComment-input-field{
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+    width: 80%;
+}
+.postComment-btn{
+    padding: 10px;
+    background-color: rgb(223, 42, 42);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
